@@ -2,12 +2,8 @@
 layout: default
 ---
 <section id="posts">
-  <ol>
     {% for post in paginator.posts %}
-    <li>
       {% include post.html %}
-    </li>
     {% endfor %}
-  </ol>
   {% endif %}
 </section>
