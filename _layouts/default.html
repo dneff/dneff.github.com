@@ -14,74 +14,21 @@
        <![endif]-->
     <title>{% if page.title %}{{ page.title }} | {% endif %}neff.cc: sparks and accelerant</title>
     </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>sparks and accelerant</h1>
+                <p><a href="/">neff.cc</a></p>
+                <p>
+                    A ops/release guy living in San Jose, California. I work for <a href="http://adobe.com">Adobe</a>.
+                </p>
+            </header>
 
-  </head>
-  <body class="{{ page.layout }}">
+            <section id="focus" class="group">
 
-    <section id="main">
-
-      <section id="masthead" class="group">
-        <header class="group">
-          <p><a href="/">neff.cc</a></p>
-          <h1>sparks and accelerant</h1>
-        </header>
-      </section>
-
-      <section id="focus" class="group">
-
-        <section id="content" class="group">
-          {{ content }}
-        </section>
-
-        <section id="sidebar">
-
-          <section id="meta-col1" class="meta group">
-            <aside id="about">
-              <header>
-                <h3>About</h3>
-              </header>
-              <p>
-              splashes of ideas looking for ignitors. 
-              </p>
-            </aside>
-
-            <aside id="bio">
-              <header>
-                <h3>DTN</h3>
-              </header>
-              <p>
-              A ops/release guy living in San Jose, California. I work for <a href="http://adobe.com">Adobe</a>.
-              </p>
-            </aside>
-
-            <aside>
-              <header>
-                <h3>Elsewhere</h3>
-              </header>
-              <nav id="bio">
-                <ul>
-                  <li><a href="http://twitter.com/dn3ff">Twitter</a></li>
-                  <li><a href="https://github.com/dneff">Github</a></li>
-                  <li><a href="http://www.linkedin.com/profile/view?id=1844652">LinkedIn</a></li>
-                </ul>
-              </nav>
-            </aside>
-
-          </section>
-
-        </section>
-
-      </section>
-
-      <section id="footer" class="group">
-        <footer class="group">
-          <p class="copyright">
-            inspired by <a href="http://userobsessed.net/">User Obsessed</a> 
-          </p>
-        </footer>
-      </section>
-
-    </section>
+            <section id="content" class="group">
+                {{ content }}
+            </section>
 
   </body>
 </html>
